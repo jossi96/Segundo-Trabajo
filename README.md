@@ -8,11 +8,9 @@ Para la elaboración de la práctica exploratoria, se utilizó un archivo FDC.cs
 
 Figura 1. Directorio creado en la computadora.
 
-Seguidamente, se importan los datos al programa R, es importante escribir el nombre exacto del archivo.
+Seguidamente, se importan los datos al programa R, es importante escribir el nombre exacto del archivo. Por lo que se utiliza la siguiente sintaxis: inp <- read.csv("FDC.csv", na.strings ="")
 
-![](Nom exa.PNG)
 
-Figura 2. Sintaxis utilizado para importar el archivo.
 
 
 
