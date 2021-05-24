@@ -32,6 +32,13 @@ plot(Estrella, main="Caudal diario del rio Estrella en mm", xlab="Fecha", ylab="
 
 Figura 4. Gráfico de puntos del caudal diario del río Estrella.
 
+Para agregar la serie de tiempo y el dato de caudal a valores anuales y mensuales, se deben definir el formato de la fecha del tiempo de la serie, para esto se debe crear un archivo intermedio y definir la función  puede usar la sintaxis: 
+
+
+
+Figura 5. Valores anuales del caudal
+
+
 
 
 
