@@ -36,10 +36,11 @@ Para agregar la serie de tiempo y el dato de caudal a valores anuales y mensuale
 MAQ_Estrella <- tapply(Estrella, format(Tempdate, format="%Y"), FUN=sum) /
 MAQ_Banano <- tapply(Banano, format(Tempdate, format="%Y"), FUN=sum) /
 write.csv(rbind(MAQ_Estrella,MAQ_Banano), file="MAQ.csv")
+Para visualizar en un gráfico los valores anuales del caudal, se ejecuta la sintaxis: plot(MAQ_Banano, ylim=c(100,3000), main="Comparación del grafico de puntos del rio Banano con el grafico de lineas del rio estrella", xlab="Fecha") junto con la sintaxis: lines(MAQ_Estrella, col=3)
 
+![]()
 
-
-Figura 5. Valores anuales del caudal
+Figura 5. Valores anuales de los caudales Banano y Estrella
 
 
 
