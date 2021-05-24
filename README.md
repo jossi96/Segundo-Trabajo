@@ -8,5 +8,12 @@ Para la elaboración de la práctica exploratoria, se utilizó un archivo FDC.cs
 
 Figura 1. Directorio creado en la computadora.
 
+Seguidamente, se importan los datos al programa R, es importante escribir el nombre exacto del archivo.
+
+![]()
+
+
+
+
 
 ![](Rplot.png)
