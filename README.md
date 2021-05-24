@@ -1,6 +1,6 @@
-# Datos Hidrológicos
+# Datos Hidrológicos de los ríos Banano y Estrella
 
-## Ejercicio exploratorio
+## Ejercicio exploratorio 
 
 Para la elaboración de la práctica exploratoria, se utilizó un archivo FDC.csv el cual contenía datos hidrológicos de las cuencas del río Estrella y río Banano. Se genera un directorio, en el cual quedaran guardados todos los pasos a realizar.
 
@@ -9,6 +9,8 @@ Para la elaboración de la práctica exploratoria, se utilizó un archivo FDC.cs
 Figura 1. Directorio creado en la computadora.
 
 Seguidamente, se importan los datos al programa R, es importante escribir el nombre exacto del archivo. Por lo que se utiliza la siguiente sintaxis: inp <- read.csv("FDC.csv", na.strings ="")
+
+## newinp <- na.omit(inp)
 
 Para trabajar series de tiempo, es importante reconocer diferentes funciones (na.fail, na.omit, na.exclude, na.pass) ya que,a veces se trabaja con casos de datos faltantes y en caso de la climatología o hidrología, si esto sucede no se podría caracterizar la climatología o la hidrología. Se utiliza la siguiente sintaxis para generar un gráfico de series de tiempo: plot(inp[,2], main="Volumen de agua por tiempo encontrado en los rios", xlab="Fecha", ylab="Caudal por dia en mm", type = "l", col="green")
 lines(inp[,3], col="black")
@@ -41,6 +43,8 @@ Para visualizar en un gráfico los valores anuales del caudal, se ejecuta la sin
 ![](Comp.png)
 
 Figura 5. Valores anuales de los caudales Banano y Estrella
+
+## Análisis de correlacion
 
 Para el análisis de correlación se define la función cor. Se va a correlacionar el río Banano junto con el río la Estrella, con el fin de saber si esas cuencas, poseen una relación hidroclimáticamente cuantificable. En esta función se pueden utilizar varios métodos para la correlación como pearson, kendall y spearman, cada una poseen sus posiciones. Se utiliza la siguiente sintaxis: corinp <- cor(inp[,2:3], method= "spearman") y para graficar se aplica la sintaxis: plot(Estrella, Banano, main="Correlación de ambos ríos (Banano y Estrella)", xlab="Rio Estrella", ylab="Rio Banano", col="red")
 
