@@ -2,3 +2,4 @@
 
 ## Ejercicio exploratorio
 
+![](Rplot.png)
