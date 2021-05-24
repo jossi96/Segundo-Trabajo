@@ -10,7 +10,7 @@ Figura 1. Directorio creado en la computadora.
 
 Seguidamente, se importan los datos al programa R, es importante escribir el nombre exacto del archivo.
 
-![]()
+![](Nom exa.PNG)
 
 Figura 2. Sintaxis utilizado para importar el archivo.
 
