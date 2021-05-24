@@ -44,6 +44,6 @@ Figura 5. Valores anuales de los caudales Banano y Estrella
 
 Para el análisis de correlación se define la función cor. Se va a correlacionar el río Banano junto con el río la Estrella, con el fin de saber si esas cuencas, poseen una relación hidroclimáticamente cuantificable. En esta función se pueden utilizar varios métodos para la correlación como pearson, kendall y spearman, cada una poseen sus posiciones. Se utiliza la siguiente sintaxis: corinp <- cor(inp[,2:3], method= "spearman") y para graficar se aplica la sintaxis: plot(Estrella, Banano, main="Correlación de ambos ríos (Banano y Estrella)", xlab="Rio Estrella", ylab="Rio Banano", col="red")
 
-![]()
+![](Corre.png)
 
 Figura 6. Correlación entre ambos ríos.
