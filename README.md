@@ -17,8 +17,15 @@ lines(inp[,3], col="black")
 
 Figura 2. Las dos series de tiempo de los caudales.
 
+Se pueden realizar histogramas para observar como se distribuyen las estadísticas descriptivas. El histograma hace un conteo de clases. Por ejemplo en el sigiente histograma del río Estrella, en la primera clase que es de 0 a 15mm de agua por día, se encuentra la gran mayoría de los caudales. Para realizarlo se utilizó la sintaxis: hist(inp[,2], main="Histograma del rio Estrella", xlab="Caudal por mm", ylab="Frecuencia", col="orange")
+
+![]()
+
+
+Figura 3. Histograma del río Estrella
 
 
 
 
-![](Rplot.png)
+
+
