@@ -10,13 +10,15 @@ Figura 1. Directorio creado en la computadora.
 
 Seguidamente, se importan los datos al programa R, es importante escribir el nombre exacto del archivo. Por lo que se utiliza la siguiente sintaxis: inp <- read.csv("FDC.csv", na.strings ="")
 
-![](nom.JPG)
+Para trabajar series de tiempo, es importante reconocer diferentes funciones (na.fail, na.omit, na.exclude, na.pass) ya que,a veces se trabaja con casos de datos faltantes y en caso de la climatología o hidrología, si esto sucede no se podría caracterizar la climatología o la hidrología. Se utiliza la siguiente sintaxis para generar un gráfico de series de tiempo: plot(inp[,2], main="Volumen de agua por tiempo encontrado en los rios", xlab="Fecha", ylab="Caudal por dia en mm", type = "l", col="green")
+lines(inp[,3], col="black")
+
+![]()
+
+Figura 2. Las dos series de tiempo del caudal / Volumen de agua por tiempo encontrado en los ríos
 
 
 
-
-
-jgfffhhj
 
 
 ![](Rplot.png)
