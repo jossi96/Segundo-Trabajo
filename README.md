@@ -28,7 +28,7 @@ names(inp) <- c("fecha", "Estrella","Banano")
 attach(inp)
 plot(Estrella, main="Caudal diario del rio Estrella en mm", xlab="Fecha", ylab="Caudal del rio Estrella", col="blue")
 
-![]()
+![](grafpun.png)
 
 Figura 4. Gráfico de puntos del caudal diario del río Estrella.
 
