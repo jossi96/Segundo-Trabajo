@@ -24,9 +24,9 @@ Se pueden realizar histogramas para observar como se distribuyen las estadístic
 Figura 3. Histograma del río Estrella
 
 Debido a que en ocasiones es inusual trabajar con las columnas indicando la función input, también se puede utilizar la opción names, con esta función se pueden asignar nombres, de esta forma se podría trabajar directamente de la columna, por lo que la hace fácil de usar. Al emplear la opción plot y ejecutarla con las funciones names y attach, se genera un gráfico de puntos. Para esto se usa la siguiente sintaxis: 
-names(inp) <- c("fecha", "Estrella","Banano")
-attach(inp)
-plot(Estrella, main="Caudal diario del rio Estrella en mm", xlab="Fecha", ylab="Caudal del rio Estrella", col="blue")
+names(inp) <- c("fecha", "Estrella","Banano") /
+attach(inp) /
+plot(Estrella, main="Caudal diario del rio Estrella en mm", xlab="Fecha", ylab="Caudal del rio Estrella", col="blue") 
 
 ![](grafpun.png)
 
